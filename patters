@@ -194,10 +194,10 @@ Scanner sc = new Scanner (System.in);
 		System.out.println("Enter age");
 		int age = sc.nextInt();
 		
-		System.out.println("Enter sex: M/F");
+		System.out.println("Enter gender: M/F");
 		int sex = sc.next().charAt(0);
 		
-		if(sex == 'F') 
+		if(gender == 'F') 
 		{
 			if(age >= 60) 
 			{
@@ -208,7 +208,7 @@ Scanner sc = new Scanner (System.in);
 				System.out.println("Rate of interrest=5%");
 			}
 		}
-		if(sex == 'M')
+		if(gender == 'M')
 		{
 			if(age >= 60) 
 			{
