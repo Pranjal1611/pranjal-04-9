@@ -195,7 +195,7 @@ Scanner sc = new Scanner (System.in);
 		int age = sc.nextInt();
 		
 		System.out.println("Enter gender: M/F");
-		int sex = sc.next().charAt(0);
+		int gender = sc.next().charAt(0);
 		
 		if(gender == 'F') 
 		{
